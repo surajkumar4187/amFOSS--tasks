@@ -1,0 +1,15 @@
+A,B = input().split()
+a = int (A)
+b = int (B)
+
+two = a //2 
+one = a % 2
+sumofbills = one + two 
+
+if a < b:
+    print ("-1")
+elif sumofbills%b == 0:
+    print (sumofbills)
+else:
+    print ("-1")
+

@@ -1,0 +1,14 @@
+import math 
+random = int(input())
+numbers = input ()
+numbersmapped = list (map (int, numbers.split()))
+
+sumofnums = sum(numbersmapped)
+cars = sumofnums / 4
+
+actualcars = math.ceil(cars)
+
+
+print (actualcars)
+
+

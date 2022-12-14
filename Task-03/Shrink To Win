@@ -1,0 +1,49 @@
+import sys
+n=int(input())
+tot=0
+while(n>0):
+    dig=n%10
+    tot=tot+dig
+    n=n//10
+
+totstr = str(tot)
+len1 = len(totstr)
+if (len1 == 1):
+    print ("1")
+    exit()
+    
+tot2=0
+while(tot>0):
+    dig2=tot%10
+    tot2=tot2+dig2
+    tot=tot//10
+
+tot2str = str(tot2)
+len2 = len(tot2str)
+if (len2 == 1):
+    print("2")
+    exit()
+    
+tot3 = 0
+while (tot2>0):
+    dig3 = tot2 % 10
+    tot3 = tot3 + dig3
+    tot2 = tot2 //10
+
+tot3str = str(tot3)
+len3 = len(tot3str)
+if (len3 == 1):
+    print ("3")
+    exit()
+    
+tot4 = 0
+while (tot3 > 0):
+    dig4 = tot3 % 10
+    tot4 = tot4 + dig4
+    tot3 = tot3 // 10
+
+tot4str = str(tot4)
+len4 = len(tot4str)
+if (len4 == 1):
+    print("4")
+    exit()	
