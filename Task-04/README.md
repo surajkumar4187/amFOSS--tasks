@@ -1,0 +1,3 @@
+# Telegram Bot
+#### Ahhh this task was particularly interesting. Given that it was my first time doing something like this I wanted to spend time trying to understand how everything worked first. I learned what an API was, how I can use one and how so many companies worked together using this. 
+#### The toughest part of this task for me was to figure out how the hell to make the bot output the info he got. I figured out the files, API calling, everything, but could not figure out how to output any of it. Long hours of googling later, and after a lot of errors :') I managed to find the code to do it. The kick from seeing the bot functioning was worth it. 
